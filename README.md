@@ -82,3 +82,13 @@ $ npm run preview
 The generated HTML and CSS files are minified (built-in feature from Next js). It will also removed unused CSS from [Tailwind CSS](https://tailwindcss.com).
 
 Now, your blog is ready to be deployed. All generated files are located at `dist` folder, which you can deploy with any hosting service.
+
+
+## VIEW DEMO
+
+http://pave-admin.everest.land/
+
+```
+email: admin@pave-group.com
+  password: 123@Pave
+```
