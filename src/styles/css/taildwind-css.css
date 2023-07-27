@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .fh1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+  }
+
+  .f12Regular {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .f12Bold {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .f14Regular {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .f14Bold {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .f16Bold {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .f16Regular {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .f18Regular {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .f18Bold {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .f20Regular {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .f20Bold {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .f24Regular {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .f24Bold {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+  }
+}

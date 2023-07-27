@@ -1,0 +1,58 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Heebo", Helvetica Neue, sans-serif;
+  font-size: 14px;
+  background-color: #EEF4F6;
+}
+
+@media (min-width: 640px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* FORM */
+.msg.error {
+  font-size: 12px;
+  color: #981515;
+}
+
+.btn.btn-icon {
+  cursor: pointer;
+}
+.btn.btn-icon:hover {
+  opacity: 0.8;
+}
+
+.tool-box svg {
+  width: 18px;
+}
+
+/* TABLE CSS */
+.table-loading {
+  opacity: 0.8;
+  pointer-events: none;
+}
+.section-loading {
+  pointer-events: none;
+}
